@@ -1,0 +1,18 @@
+small + small {
+    display: none;
+}
+input:valid + small {
+    display: none;
+}
+input:valid + small + small {
+    display: inline;
+}
+input:valid {
+    background-color: aquamarine;
+}
+input:invalid {
+    background-color: rgb(231, 112, 112);
+}
+body {
+    min-height: 100vh;
+}
